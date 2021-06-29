@@ -11,3 +11,5 @@ and from that - we decided to try to develop an app that will streamline the pro
 Hope you use and get help with this app!
 <br/><br/>
 Good luck! :sunglasses:
+
+### :v: Android Studio (Java), TensorFlow, YoloC4 :v:
