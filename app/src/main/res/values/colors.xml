@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tfe_color_primary">#ffa800</color>
+    <color name="tfe_color_primary_dark">#ff6f00</color>
+    <color name="tfe_color_accent">#425066</color>
+    <color name="Orange">#CE9B26</color>
+    <color name="Red">#E30E0E</color>
+    <color name="Green">#62D81A</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Transpert">#07000000</color>
+    <color name="lowGrey">#978989</color>
+    <color name="Black">#000000</color>
+    <color name="aboutUs">#00FF00	</color>
+    <color name="tfe_semi_transparent">#66000000</color>
+</resources>

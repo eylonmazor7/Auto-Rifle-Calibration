@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SelectWeapon"
+    android:background="@drawable/background2">
+
+<!--    android:background="@drawable/m16short_mafro"-->
+    <!--        android:background="@drawable/m4m5"-->
+    <!--    android:background="@drawable/m4mafro"-->
+    <!--    android:background="@drawable/micro_mafro"-->
+    <!--    android:background="@drawable/micro_m5"-->
+    <Button
+        android:id="@+id/M16"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="88dp"
+        android:onClick="M16Clicked"
+        android:background="@drawable/sec_btn"
+        android:text="@string/m16"
+
+        android:theme="@style/AppTheme.Button"
+        app:layout_constraintEnd_toStartOf="@+id/M4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+
+    <Button
+        android:id="@+id/M4"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/sec_btn"
+        android:onClick="M4Clicked"
+        android:text="@string/m4"
+        android:theme="@style/AppTheme.Button"
+        app:layout_constraintBottom_toBottomOf="@+id/M16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/M16"
+        app:layout_constraintTop_toTopOf="@+id/M16" />
+
+
+    <Button
+        android:id="@+id/M4Mafro"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/sec_btn"
+        android:onClick="M4MafroClicked"
+        android:text="@string/m4mafro"
+        android:theme="@style/AppTheme.Button"
+        app:layout_constraintBottom_toTopOf="@+id/MicroMafro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/MicroM5"
+        app:layout_constraintTop_toBottomOf="@+id/M4" />
+
+
+    <Button
+        android:id="@+id/MicroMafro"
+        android:background="@drawable/sec_btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:onClick="MicroMafroClicked"
+        android:text="@string/micromafro"
+        android:theme="@style/AppTheme.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/M16" />
+
+    <Button
+        android:id="@+id/MicroM5"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/sec_btn"
+        android:onClick="MicroM5Clicked"
+        android:text="@string/microm5"
+        android:theme="@style/AppTheme.Button"
+        app:layout_constraintBottom_toTopOf="@+id/MicroMafro"
+        app:layout_constraintEnd_toStartOf="@+id/M4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/M16" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="358dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/Transpert"
+        android:gravity="center_horizontal"
+        android:text="@string/choose_your_weapon"
+        android:theme="@style/AppTheme.Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

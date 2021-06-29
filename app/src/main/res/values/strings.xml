@@ -1,0 +1,30 @@
+<resources>
+    <string name ="app_name">F &amp; R</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="start">Start!</string>
+    <string name="head">Welcome to F&amp;R!</string>
+    <string name="tutorial_youtube_link">Tutorial</string>
+    <string name="about_us0">Hello, its Eylon Mazor and Tal Museri :)</string>
+    <string name="about_us1">We developed thi<br/>s application as a final project as part of a B.S.c degree in Computer Science at Hadassah Academic College Jerusalem.</string>
+    <string name="about_us2">The app is designed to serve all IDF soldiers - in order to save them a long and exhausting process.</string>
+    <string name="about_us3">We were both fighters in the army (Golani and Palsar 401) so we both know well the process of calibrate weapons, and from that -
+        we decided to try to develop an app that will streamline the process for everyone around - both in terms of time and money.</string>
+    <string name="about_us4">Hope you use and get help with this app!</string>
+    <string name="about_us5">Good luck!</string>
+    <string name="new_t">New</string>
+    <string name="about_us_menu">About us</string>
+    <string name="new_or_old_ques">Do you want start a new project? or load exist one?</string>
+    <string name="load_project">Load</string>
+    <string name="Project_name">Project Name</string>
+    <string name="add">Add</string>
+    <string name="exampletextview">ExampleTextView</string>
+    <string name="confirm">Confirm</string>
+    <string name="back">Back</string>
+    <string name="m16">M16 S Mafro</string>
+    <string name="m4mafro">M4 Mafro</string>
+    <string name="micromafro">Micro Mafro</string>
+    <string name="microm5">Micro M5</string>
+    <string name="choose_your_weapon">Choose Your Weapon</string>
+    <string name="new_or_exist">Insert name of an existing/new project:</string>
+    <string name="m4">M4 M5</string>
+</resources>
