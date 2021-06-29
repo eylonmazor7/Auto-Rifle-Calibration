@@ -12,4 +12,4 @@ Hope you use and get help with this app!
 <br/><br/>
 Good luck! :sunglasses:
 
-### :v: Android Studio (Java), TensorFlow, YoloC4 :v:
+### :v: Android Studio (Java), Python, Machine Learning, TensorFlow, YoloC4 :v:
